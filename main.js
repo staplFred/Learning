@@ -1,20 +1,20 @@
-function myFunction() {
+const fortunes = [
+    "The fortune you seek is in another cookie",
+    "A closed mouth gathers no feet",
+    "A conclusion is simply the place where you got tired of thinking",
+    "A cynic is only a frustrated optimist",
+    "A foolish man listens to his heart",
+    "Happy days are ahead",
+];
 
-    function randomFortune(fort) {
-        const fortuneRandom = Math.floor(Math.random() * fort.length);
-        const cookie = fort[fortuneRandom];
+el = document.getElementById('fortuneDisplay')
+console.log('el: ', el)
 
-        return cookie;
-    }
-    const fortune = [
-        "The fortune you seek is in another cookie",
-        "A closed mouth gathers no feet",
-        "A conclusion is simply the place where you got tired of thinking",
-        "A cynic is only a frustrated optimist",
-        "A foolish man listens to his heart",
-        "Happy days are ahead",
-    ];
-    const results = randomFortune(fortune);
+function displayRandomFortune() {
+    const randomNumber = Math.floor(Math.random() * fortunes.length);
+    el.innerHTML = fortunes[randomNumber];
+}
 
-    document.getElementById('demo').innerHTML = results;
+function displayFortuneNumber2() {
+    el.innerHTML = fortunes[1];
 };

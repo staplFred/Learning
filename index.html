@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <title>My First Project</title>
         <link href="./style.css" rel="stylesheet">
-        <script src="./main.js" type="text/javascript"></script>
+        <script src="./main.js" type="text/javascript" defer></script>
     </head>
     <body class="mainpage">
          <nav class="pageNav">
@@ -37,7 +37,8 @@
             <p> Using JavaScript I can incorporate functionality to my webpages, try clicking the button below </p>
         </div> 
         <br>
-            <button onclick="myFunction()">Random Fortunes Here!</button>
-            <p id="demo"></p>
+            <button onclick="displayRandomFortune()">Random Fortunes Here!</button>
+            <button onclick="displayFortuneNumber2()">Always Second!</button>
+            <p id="fortuneDisplay"></p>
         </body>
 </html>
