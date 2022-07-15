@@ -1,0 +1,23 @@
+{
+  "name": "learning",
+  "version": "1.0.0",
+  "description": "What I have learned in 1 week!\r This is an example of all the HTML, CSS and Java I learned in 1 week.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cj738/Learning.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cj738/Learning/issues"
+  },
+  "homepage": "https://github.com/cj738/Learning#readme",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
