@@ -1,0 +1,49 @@
+.heading{
+    text-align: center;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pageNav{
+    text-align: center;
+    position: relative;
+    padding: 10px 0px;
+    border: solid 1px lightcoral;
+    width: 100%;
+}
+.pageNav a{
+    background: red;
+    border: 1px solid red;
+    border-radius: 10px;
+    color: white;
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+}
+.pageNav a:hover{
+    color:orangered;
+    background-color: aliceblue;
+
+}
+#picture{
+    background-image: url(./agriculture-arable-clouds-countryside.jpg) ;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    width: 100%;
+}
+.caption h2{
+    position: relative;
+    color: white;
+    top: 600px;
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+}
+.mainpage{
+    background-color: lightseagreen;
+}
+#demo{
+    font-size: 25px;
+    text-align: center;
+    padding: 20px 20px;
+}
